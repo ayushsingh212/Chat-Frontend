@@ -4,7 +4,7 @@ import Login from "./components/Login";
 import Rooms from "./components/Rooms";
 import Chat from "./components/Chat";
 import { AuthProvider } from "./context/AuthContext";
-
+import "./index.css"
 export default function App() {
   return (
     <AuthProvider>

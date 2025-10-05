@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "https://chat-backend-x8yj.onrender.com/api"; // your backend URL
+export const API_URL = "https://chat-backend-x8yj.onrender.com/api"; 
 
 export const signup = (data: { fullName: string; email: string; password: string }) =>
   axios.post(`${API_URL}/user/register`, data,{
