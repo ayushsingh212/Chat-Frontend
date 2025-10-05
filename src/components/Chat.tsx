@@ -12,7 +12,7 @@ interface IUser {
 
 interface IMessage {
   _id: string;
-  sender: string;
+  sender: IUser;
   message: string;
   createdAt: string;
   roomId: string;
